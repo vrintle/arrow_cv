@@ -63,7 +63,7 @@ for i in range(7):
 deg = [a % 90 for a in ang] # take the angles in I quad
 ```
 
-Now, we've the side angles too, we've to just __find the index of 90 deg in between two 45 deg__, as
+- Now, we've the side angles too, we've to just __find the index of 90 deg in between two 45 deg__, as
 
 ```
 if deg.count(45) == 2: # if only two 45 deg are there
